@@ -1,0 +1,21 @@
+{
+  "name": "lab-5x-913-havirneanu-albert-andrei",
+  "version": "1.0.0",
+  "description": "To make things easier with deployments, you will be using this repository for a while. Check this link weekly for new requirements: https://github.com/UBB-SDI-23/Lab-5x-assignments/blob/main/README.md",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/main.js",
+    "start": "node app/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
